@@ -1,4 +1,4 @@
-var users = require('./../app/controllers/users.js');
+var users = require('./../server/controllers/users.js');
 
 module.exports = function Routes(app){
 	app.get('/', function(req,res) { users.index(req,res) });
